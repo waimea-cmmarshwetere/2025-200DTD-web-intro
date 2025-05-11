@@ -20,7 +20,7 @@ section#hero {
 section#hero h1 {
     text-align: center;
     font-size: 5rem;
-    color: white;
+    color: rgb(236, 146, 191);
     
 }
 
@@ -41,12 +41,36 @@ section#likes article {
 section.demo div {
     display: flex;
     gap: 1rem;
-    background-color: #666;
+    background-color: #ac4492;
     padding: 1rem;
+    border-radius: 1rem;
+    height: 15rem;
 }
 
 section.demo div p {
     font-size: 5rem;
-    background-color: blueviolet;
+    background-color: rgb(202, 17, 104);
     padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    width: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+section#task2 div {
+    justify-content: center;
+}
+
+section#task3 div {
+    justify-content: center;
+    gap: 6rem;
+}
+
+section#task4 div {
+    justify-content: right;
+}
+
+section#task5 div {
+    align-items:flex-start ;
 }
